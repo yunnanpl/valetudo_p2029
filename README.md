@@ -39,5 +39,12 @@ Not necessary, but also if sleeping a lot of cpu is consumed, so lowering priori
 
 By doing so, the linux kernel and stuff has slightly higher priority.
 
+## Consumption
+The following processes consume a lot of CPU even if sleeping.
+- ava_log_file
+- ROUTE_TREE
+
+Maybe there is a possibility to put to sleep too if not needed.
+
 # Summary
 It works, and valetudo is really great !
