@@ -47,13 +47,12 @@ The following processes consume a lot of CPU even if sleeping.
 Maybe there is a possibility to put to sleep too if not needed.
 
 # UPGRADE
-Clearly, it is possible to upgrade Valetudo and firmware of the vacuum separately (as those are completely separate parts).
+Clearly, it is necessary to upgrade Valetudo and firmware of the vacuum separately (as those are completely separate parts).
 
-IMPORTANT: Do not upgrade to official firmware, as this will remove valetudo and un-root your device.
+IMPORTANT: Do not upgrade to official firmware, as this will remove valetudo and un-root your device (usually it is not possible after rooting, but if it is, just do not do it, as it can be harder to root the device with newer firmware).
 
-Updating valetudo is very simple, and can be done in the Web GUI of the vacuum (on the left side Update). You may need to do it a few times, as it always upgrades step by step.
-
-Updating firmware can be done on the device, using Dustbuilder.
+- Updating valetudo is very simple, and can be done in the Web GUI of the vacuum (on the left side Update). You may need to do it a few times, as it always upgrades step by step.
+- Updating firmware can be done on the device, using Dustbuilder.
 
 
 You do not need to worry, as your SSH Keys and Wifi data stays intact, so no issues there.
